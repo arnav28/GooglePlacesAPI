@@ -1,0 +1,9 @@
+{
+  "firebase": "googleplaces",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

@@ -1,0 +1,52 @@
+#app-container{
+  height: 100%;
+}
+#home {   
+  width: 100%;
+  height: 100%;   
+}
+#dashboard{
+  height: 100%; 
+   display: -webkit-flex;
+  display: flex;
+}
+#dashboard nav{
+  overflow-y: auto;
+  padding: 20px;
+  width: 250px;
+}
+#dashboard nav footer{
+  position: absolute;
+  bottom: 0;
+}
+#dashboard section {
+  height: 100%;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.markerWindow{
+  font-size: 12px;
+}
+.markerWindow .title {
+  font-weight: 500;
+  font-size: 14px;
+}
+.markerWindow a {
+  text-decoration: none;
+}
+.tab{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #dd4b39;
+}
+.list{
+  list-style-type: none;
+  padding: 0;  
+}
+.list li{
+  cursor: pointer;
+  padding: 20px 0;
+  border-bottom: 1px solid #c1c1c1;
+}
+.del-Icon:hover{
+  color: #dd4b39;
+}

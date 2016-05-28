@@ -1,0 +1,20 @@
+{
+  "name": "googleplaces",
+  "version": "1.0.0",
+  "description": "Search for places using Google Places API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnav Palnitkar",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-html-replace": "^1.5.4",
+    "gulp-jshint": "^1.11.2",
+    "gulp-uglify": "^1.4.1"
+  }
+}

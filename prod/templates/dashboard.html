@@ -1,0 +1,25 @@
+<section id="dashboard">
+	<nav>
+		<form name="searchForm" ng-submit="initSearch(search.query, true)" class="text-center">
+			<input type="text" class="input" ng-model="search.query" autofocus required>
+			<button type="submit" class="btn btn-lg google-btn"><i class="fa fa-search"></i> Search</button>
+		</form>
+
+		<div>
+			<label class="tab">History</label>
+			<ul class="list">
+				<li ng-repeat="item in queries | orderBy:'time':true" " ng-click="initSearch(item.query, false) ">{{item.query}}<br>
+					<span>{{item.time | date:'medium'}}</span>
+					<i class="fa fa-trash-o pull-right del-Icon " ng-click="queries.$remove(item) "></i>
+				</li>
+			</ul>
+		</div>
+		<footer>
+			<button type="button " ng-click="logout() " class="btn btn-lg btn-secondary ">Logout</button>
+		</footer>		
+	</nav>
+
+	<section>
+		<div id="map" style="height:100%;"></div>
+	</section>
+</section>
