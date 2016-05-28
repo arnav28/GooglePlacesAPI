@@ -1,9 +1,8 @@
 This application uses Google places library for retrieving nearby places based on users search query and location. Results are displayed on a map with an option of getting driving directions.
 
-Working URL: https://googleplaces.firebaseapp.com
+Requires Google account for authentication.
 
 TechStack:
-
 AngularJS 
 Firebase 
 Google maps api (places library)
